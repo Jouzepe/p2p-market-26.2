@@ -1,0 +1,17 @@
+# Normalize text files in Git
+* text=auto
+
+# Source/config files
+*.java text
+*.gradle text
+*.properties text
+*.json text
+*.yml text
+*.yaml text
+*.md text
+
+# Generated/local build output should never affect GitHub language statistics
+build/** linguist-generated=true
+.gradle/** linguist-generated=true
+.gradle-local/** linguist-generated=true
+*.html linguist-generated=true

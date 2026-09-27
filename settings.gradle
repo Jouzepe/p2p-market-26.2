@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'p2p-market-26.2'

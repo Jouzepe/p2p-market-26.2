@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "p2p_market",
+  "version": "${version}",
+  "name": "P2P Market",
+  "description": "Player-to-player RP trading terminal for Minecraft 26.2 with live orders, reservations, and RU/EN UI.",
+  "authors": [
+    "jouzepe_"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.jouzepe.p2pmarket.P2PMarketMod"
+    ],
+    "client": [
+      "dev.jouzepe.p2pmarket.client.P2PMarketClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
